@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    color: #2ecc71;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.logo0 {
+    background-image: url(images/logo.jpg);
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+
+}
+
+.logo span {
+    color: #27ae60;
+}
+
+:root {
+    --primary-color: #28a745;
+    --secondary-color: #007bff;
+    --button-background: #ffffff;
+    --button-text: #000000;
+}
+
+.btn {
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: 1px solid var(--primary-color);
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    transition: color 0.3s ease;
+
+}
+
+.navbar-nav .nav-link:hover {
+    color: #2ecc71;
+
+}
+
+
+
+@media (max-width:768px) {
+    section {
+        padding: 7rem 2rem;
+    }
+
+    .home {
+        background-size: contain;
+    }
+
+    .about {
+        background-size: contain;
+    }
+
+    .services {
+        background-size: contain;
+    }
+
+    .doctors {
+        background-size: contain;
+    }
+
+    .contact {
+        background-size: contain;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+
+}
+
+.home {
+    background: url(images/home_pic.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about {
+    padding: 5rem;
+}
+
+.content {
+    width: 54rem;
+
+}
+
+.content h3 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #709a6f;
+}
+
+.row {
+    min-height: 80vh;
+}
+
+.content span {
+    color: #7ab075;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content img {
+    padding: 2rem;
+}
+
+.services {
+
+    background-color: whitesmoke;
+}
+
+.container2 i {
+    font-size: 2rem;
+    color: #8df9ba;
+}
+
+.b {
+
+    float: right;
+    border: px solid;
+    background-color: white;
+    margin: 0.6rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 1px;
+
+
+}
+
+.title h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #709a6f;
+}
+
+.b p {
+    width: 20rem;
+    text-align: center;
+    color: grey(92, 92, 92);
+    word-wrap: break-word;
+
+}
+
+.b h4 {
+    text-align: center;
+}
+
+.bloc1 {
+
+    display: inline-block;
+}
+
+.bloc2 {
+    display: inline-block;
+}
+
+.container2 {
+    text-align: center;
+    padding: 5rem;
+
+
+}
+
+.b:hover {
+    transition: 0.3s;
+    background-color: rgb(175, 244, 205);
+
+}
+
+.contact {
+    background-color: whitesmoke;
+
+}
+
+.info {
+    display: block;
+    text-align: center;
+}
+
+.info input {
+    border: 1px solid;
+    border-color: #27ae60;
+    display: block;
+    padding: 7px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.info input:hover {
+    border: 1.8px solid;
+    border-color: #3c604d;
+}
+
+.information label {
+    display: block;
+    text-align: left;
+    font-size: smaller;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem;
+}
+
+.information {
+    background-color: white;
+    width: 30rem;
+    padding: 2rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 1rem;
+    border: 0.2px solid;
+    border-color: #27ae60;
+    margin-left: 2rem;
+
+}
+
+.container3 {
+    text-align: center;
+    padding-left: 32rem;
+    height: 35rem;
+}
+
+.titre h1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #709a6f;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(219, 249, 219);
+    padding: 6rem;
+    text-align: center;
+
+}
+
+.container4 h3 {
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+}
+
+.container4 i {
+    font-size: x-large;
+    color: black;
+}
+
+.inf {
+    max-width: 25%;
+    overflow: hidden;
+
+}
+
+
+.contentdr {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dr {
+    background-color: whitesmoke;
+    width: 22%;
+    text-align: center;
+    height: 30rem;
+    box-shadow: 1px 1px whitesmoke;
+    border-radius: 0.7rem;
+    overflow: hidden;
+    border: 1px solid whitesmoke;
+}
+
+.dr:hover {
+    border: 2px solid rgb(159, 219, 174);
+}
+
+.dr a {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #010101;
+}
+
+.dr a:hover {
+    color: #7ab075;
+}
+
+.dr h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2rem;
+    font-size: 2.2rem;
+    color: #709a6f;
+}
+
+.container1 {
+    padding: 5rem;
+    width: auto;
+}
+
+.container1 h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #709a6f;
+}
+
+.container1 h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+}
+
+.image {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*{
+    font-family: "Poppins", sans-serif;
+}
+*::-webkit-scrollbar{
+    height: .5rem;
+    width: 1rem;
+}
+*::-webkit-slider-track{
+ background-color:transparent;
+}
+*::-webkit-slider-thumb{
+    background-color: rgb(141, 141, 211);
+   }
+html{
+    font-size:62.5%;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+    scroll-padding-top:6.5rem;
+}
+.navbar{
+    padding:2rem ;
+    border-bottom: 1rem solid rgba(0,0,0,.1);
+} 
+.logo{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.logo span{
+    color: rgb(55, 234, 234);
+}
+.nav-link {
+    margin: 0 1rem;
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+    
+}
+*/
